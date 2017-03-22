@@ -1,0 +1,31 @@
+// run until the end of the match (driver presses STOP)
+
+        //drive(90);
+        //sleep(2000);
+        //drive(0.2, -10);
+        //drive(0.2, 10);
+        //sleep(2000);
+        /*
+        leftarm.setPosition(arm_up);
+        rightarm.setPosition(arm_up + right_offset);
+        sleep(2000);
+        leftarm.setPosition(arm_down);
+        rightarm.setPosition(arm_down + right_offset);
+        */
+        /*
+        while(range.cmUltrasonic()>6){
+            rightMotor1.setPower(cruise_speed);
+            rightMotor2.setPower(cruise_speed);
+            leftMotor1.setPower(cruise_speed);
+            leftMotor2.setPower(cruise_speed);
+        }*/
+
+        /*
+                int c_heading = gyro.getIntegratedZValue();
+                double error;
+                drive(cruise_speed, cruise_speed);
+                while(range.cmUltrasonic() > 10){
+                    error = (gyro.getIntegratedZValue() - c_heading)*propGain;
+                    drive(leftMotor1.getPower() - error, rightMotor1.getPower() + error);
+                }
+                */
